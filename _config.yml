@@ -1,0 +1,15 @@
+# Jekyll configuration
+title: Image Viewer
+description: A macOS Finder-style image viewer
+baseurl: ""
+url: ""
+
+# Build settings
+markdown: kramdown
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .git
+
